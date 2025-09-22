@@ -19,3 +19,6 @@
 5. How do I submit the project to git (BEST PRACTICE)
     -> Not really recommended that you push the env folder to git 
     -> Generate a .gitignore file 
+
+6. How do we install all the packages at once
+   -> pip install -r requirements.txt
