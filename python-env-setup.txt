@@ -1,0 +1,21 @@
+# Setting up a python environment within a project 
+
+1. generate an env/venv folder (node_modules)
+    -> python -m venv env/joseph/coffee-env
+    -> python3 -m venv env
+
+2. Activate the python env 
+   -> linux/MAC (source /env/bin/activate)
+   -> Windows (source env/Scripts/activate)
+
+3. Deactivate the env 
+   -> deactivate 
+
+4. Generate a requirements.txt 
+   -> pip freeze 
+   -> pip freeze > requirements.txt
+
+
+5. How do I submit the project to git (BEST PRACTICE)
+    -> Not really recommended that you push the env folder to git 
+    -> Generate a .gitignore file 
